@@ -1,0 +1,230 @@
+/*Tipografia body*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #a2b49f;
+}
+/*Alineacion logo*/
+.logo{
+    text-align: center;
+    background-color: darkolivegreen;
+    margin: 0%;
+}
+/*Titulo*/
+h1{
+    margin: 0%;
+    text-align: center;
+    color: darkolivegreen;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+/*Barra navegación*/
+nav{
+    list-style: none;
+    padding: 0%;
+    background-color: darkolivegreen;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    margin-top: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #92a48f;
+    padding: 20px;
+    display: block;
+}
+nav ul li a:hover{
+    background: #8FBD85;
+    transition: all 2s;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+/*Imagenes Index*/
+.imagen-index{
+    padding: 0%;
+    width: 100%;
+    justify-content: space-around; 
+    align-items: center; 
+}
+.Deptos{
+    width: 700px;
+    height: auto;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+}
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.pie{
+    text-align: center;
+    color: #92a48f;
+}
+.foto:hover{ 
+    transition: all 1s;
+    transform: scale(2);
+}
+/*Pie de Pagina*/
+footer{
+    background-color: darkolivegreen;
+    color: #b5c6b2;
+    font-size: smaller;
+}
+.Logos{
+    width: 100px;
+}
+.whatsapp{
+    width: 80px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/*GRID INDEX*/
+.grid-index{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+@media (max-width: 992px)
+{
+    .grid-index{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+/*FOOTER*/
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+/*Galeria*/
+/*GRID GALERIA*/
+.grilla_item {
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grilla_item:hover{
+    transition: all 2s;
+    transform: rotate(359deg);
+}
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: minmax(300px, auto);
+    gap: 5px;
+    padding: 10px;
+    grid-auto-flow: dense;
+}
+@media (min-width: 600px){
+.wide{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.tall{
+    grid-row: span 2;
+}
+}
+@media (min-width: 600px){
+ .ancho{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.alto{
+    grid-row: span 2;
+}
+}
+
+/*Tarifas y Servicios*/
+.h3tys{
+    
+    text-align: center;
+    margin: 0%;
+    font-size: 30px;
+    font-weight: 350px;
+}
+h4{
+    font-size: 20px;
+}
+div ul li{
+    list-style: none;
+}
+.columna{
+    margin-top: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+.columnas{
+    margin-top: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+    text-align: center;
+}
+
+
+/*Nosotros*/
+.nos{
+    padding: 0%;
+    width: 100%;
+    justify-content: space-around; 
+    align-items: center; 
+}
+.in{
+    width: 700px;
+    height: auto;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+}
+.ad{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.grid-nos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+@media (max-width: 992px)
+{
+    .grid-it-nos{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+
+/*Asociate*/
+.form{
+    text-align: center;
+}
+.h3a{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
