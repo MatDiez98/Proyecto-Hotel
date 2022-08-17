@@ -3,5 +3,11 @@
     margin: 0;
 }
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: map-get($colores, "color-secundario");
+}
+footer{
+    background-color: map-get($colores, "color-principal");
+    color: $color-quintenario;
+    font-size: smaller;
 }
