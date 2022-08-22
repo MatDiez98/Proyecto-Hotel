@@ -4,10 +4,10 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: map-get($colores, "color-secundario");
+    background-color: $color-secundario;
 }
 footer{
-    background-color: map-get($colores, "color-principal");
+    background-color: $color-principal;
     color: $color-quintenario;
     font-size: smaller;
 }
